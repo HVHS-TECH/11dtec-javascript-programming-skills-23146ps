@@ -1,6 +1,6 @@
 /*
  t02_variables.js,
- javascript variables,
+ javascript variable,
  pasha,
  april 2025
 */
