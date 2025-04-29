@@ -8,7 +8,7 @@ console.log("Running t01_introduction.js");
 console.log("Running t01_introduction.js2");
 
 //Variables
-
+let
 /*
 Main code
 */
