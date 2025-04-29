@@ -7,11 +7,11 @@
 console.log("Running t02_variables.js");
 
 //Variables
-
+let pocketMoney = 69;
 /*
 Main code
 */
-
+console.log("money=" pocketMoney)
 /*
 Functions
 */
