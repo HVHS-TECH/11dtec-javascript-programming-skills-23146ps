@@ -20,7 +20,7 @@ console.log("as of", year ,"you are", userAge ,"years old");
 console.log("you were born in", year - userAge,);
 console.log("in 10 years you will be", dead,)
 console.log("you have", pocketMoney, "dollars");
-console.log("half of your money is", pocketMoney - 10, );
+console.log("half of your money is", pocketMoney / 2, );
 /*
 Functions
 */
