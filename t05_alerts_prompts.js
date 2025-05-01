@@ -1,15 +1,17 @@
 /*
- t05_alert_prompts.js,
- javascript maths,
+ t05_alerts_prompts.js,
+ javascript alerts and prompts,
  pasha,
  april 2025
 */
 console.log("Running t05_alerts_prom.js");
 
 //Variables
-let userAge = 79;
-let userName = "john";
-let pocketMoney = 60;
+
+alert("Welcome to the VIRGINITY STEALER 9000™");
+let userName = prompt('What is your name?');
+let userAge = prompt('Hi '+ userName +' what is your age?');
+let pocketMoney = prompt('how much money do you have?');
 let year = 2025;
 
 /*
