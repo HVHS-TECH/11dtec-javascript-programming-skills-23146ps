@@ -7,6 +7,7 @@
 
 //Variables
 alert("Welcome to the VIRGINITY STEALER 9000™");
+
 let userName = prompt('What is your name?');
 let userAge = prompt('Hi '+ userName +' what is your age?');
 let pocketMoney = prompt('how much money do you have?');
