@@ -4,7 +4,6 @@
  pasha,
  may 2025
 */
-console.log("Running t07_if.js");
 
 //Variables
 alert("Welcome to the VIRGINITY STEALER 9000™");
@@ -18,10 +17,10 @@ let year = 2025;
 Main code
 */
 
-if (pocketMoney < 4) {
-    alert('Hi ' + userName + /n 'I can predict that you are ' + userAge + ' years old' /n 'your pocket money is ' + pocketMoney + 'dollars' /n "you're poor lmao")
+if (pocketMoney < 150) {
+    alert('Hi ' + userName + /n ,'I can predict that you are ' + userAge + ' years old' /n ,'your pocket money is ' + pocketMoney + 'dollars' /n ,"you're poor lmao");
 } else {
-    
+    alert('Hi ' + userName + /n ,'I can predict that you are ' + userAge + ' years old' /n ,'your pocket money is ' + pocketMoney + 'dollars' /n ,"stfu you nepo baby");
 }
 /*
 Functions
