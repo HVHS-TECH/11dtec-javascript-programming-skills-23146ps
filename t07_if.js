@@ -19,9 +19,9 @@ Main code
 */
 
 if (pocketMoney < "150") {
-    alert("Hi " + userName + /n ,"I can predict that you are " + userAge + " years old" /n ,"your pocket money is " + pocketMoney + " dollars" /n ,"stfu you nepo baby");
+    alert("Hi " + userName + " you are poor");
 } else {
-    alert("Hi " + userName + /n ,"I can predict that you are " + userAge + " years old" /n ,"your pocket money is " + pocketMoney + " dollars" /n ,"stfu you nepo baby");
+    alert("stfu you nepo baby");
 }
 /*
 Functions
