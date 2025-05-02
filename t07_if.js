@@ -18,10 +18,10 @@ let year = 2025;
 Main code
 */
 
-if (pocketMoney < 150) {
-    alert('Hi ' + userName + /n ,'I can predict that you are ' + userAge + ' years old' /n ,'your pocket money is ' + pocketMoney + 'dollars' /n ,"you're poor lmao");
+if (pocketMoney < "150") {
+    alert("Hi " + userName + /n ,"I can predict that you are " + userAge + " years old" /n ,"your pocket money is " + pocketMoney + " dollars" /n ,"you're poor lmao");
 } else {
-    alert('Hi ' + userName + /n ,'I can predict that you are ' + userAge + ' years old' /n ,'your pocket money is ' + pocketMoney + 'dollars' /n ,"stfu you nepo baby");
+    alert("Hi " + userName + /n ,"I can predict that you are " + userAge + " years old" /n ,"your pocket money is " + pocketMoney + " dollars" /n ,"stfu you nepo baby");
 }
 /*
 Functions
