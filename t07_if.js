@@ -19,7 +19,7 @@ Main code
 */
 
 if (pocketMoney < 4) {
-    alert('Hi ' + userName + )
+    alert('Hi ' + userName + /n 'I can predict that you are ' + userAge + ' years old' /n 'your pocket money is ' + pocketMoney + 'dollars' /n "you're poor lmao")
 } else {
     
 }
