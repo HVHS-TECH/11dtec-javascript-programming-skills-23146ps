@@ -21,6 +21,7 @@ Main code
 */
 function start() {
     getUserName();
+    if (userName == null || userName == "" || userName == " " || userName )
     getUserAge();
     getUserMoney();
     alert("thanks for the info, I virused you");
