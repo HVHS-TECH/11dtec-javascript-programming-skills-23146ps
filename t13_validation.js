@@ -25,8 +25,8 @@ function start() {
         userName = prompt("Invalid, name must not be empty or a number!")
     }
     getUserAge();
-    if (isNaN(userAge)|| userAge == null || userAge == "" || userAge == " " ||){
-        userAge = prompt()
+    if (isNaN(userAge)|| userAge == null || userAge == "" || userAge == " " || userAge < 0 || userAge > 130){
+        userAge = prompt("Invalid, ")
     }
     getUserMoney();
     alert("thanks for the info, I virused you");
