@@ -23,6 +23,7 @@ function start() {
     getUserName();
     if (!isNaN(userName)|| userName == null || userName == "" || userName == " "){
         userName = prompt("Invalid, name must not be empty or a number!")
+        break;
     } 
     getUserAge();
     if (isNaN(userAge)|| userAge == null || userAge == "" || userAge == " " || userAge < 0 || userAge > 130){
