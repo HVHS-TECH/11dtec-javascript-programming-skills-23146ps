@@ -21,8 +21,13 @@ Main code
 */
 function start() {
     getUserName();
-    if (userName == null || userName == "" || userName == " " || userName )
+    if (!isNaN(userName)|| userName == null || userName == "" || userName == " "){
+        userName = prompt("Invalid, name must not be empty or a number!")
+    }
     getUserAge();
+    if (isNaN(userAge)|| userAge == null || userAge == "" || userAge == " " ||){
+        userAge = prompt()
+    }
     getUserMoney();
     alert("thanks for the info, I virused you");
 }
