@@ -2,7 +2,7 @@
  t12_while_loop.js,
  javascript while loops,
  pasha,
- april 2025
+ may 2025
 */
 console.log("Running t01_while_loop.js");
 
