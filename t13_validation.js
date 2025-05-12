@@ -14,7 +14,7 @@ function getUserAge() {
     userAge = prompt("Hi "+userName+" please input age:");
 }
 function getUserMoney() {
-    userMoney = prompt("Hi "+userName+ " who is "+userAge+" years old. please input your yearly salary (in $)")
+    userMoney = prompt("Hi "+userName+ " who is "+userAge+" years old. please input how much money you are willing to spend ($1-$5)")
 }
 /*
 Main code
