@@ -4,7 +4,7 @@
  pasha,
  may 2025
 */
-console.log("Running t10_activate_via_button.js");
+console.log("Running t13_validation.js");
 
 //Variables
 function getUserName() {
@@ -26,9 +26,12 @@ function start() {
     }
     getUserAge();
     if (isNaN(userAge)|| userAge == null || userAge == "" || userAge == " " || userAge < 0 || userAge > 130){
-        userAge = prompt("Invalid, ")
+        userAge = prompt("Invalid, age can not be under 0 or over 130")
     }
     getUserMoney();
+    if (isNaN(userMoney)|| userMoney == null || userMoney == "" || userMoney == " " || userMoney < 0 || userMoney > 5){
+        userMoney = prompt("Invalid, can't you read the godamned prompt!? :3")
+    }
     alert("thanks for the info, I virused you");
 }
 /*
