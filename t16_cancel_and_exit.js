@@ -1,10 +1,10 @@
 /*
- t16_cancel.js,
- javascript constants,
+ t16_cancel_and_exit.js,
+ javascript cancel and exiting,
  pasha,
  may 2025
 */
-console.log("Running t14_constants.js");
+console.log("Running t16_cancel_and_exit.js");
 
 //Variables
 function getUserName() {
