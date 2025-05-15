@@ -31,10 +31,12 @@ function start() {
     getUserAge();
     if (isNaN(userAge)|| userAge == null || userAge == "" || userAge == " " || userAge < MIN_USER_AGE || userAge > MAX_USER_AGE){
         userAge = prompt("Invalid, age can not be under 0 or over 130")
+        return;
     }
     getUserMoney();
     if (isNaN(userMoney)|| userMoney == null || userMoney == "" || userMoney == " " || userMoney < MIN_USER_MONEY || userMoney > MAX_USER_MONEY){
         userMoney = prompt("Invalid, can't you read the godamned prompt!? :3")
+        return;
     }
     alert("thanks for the info, I virused you");
 }
