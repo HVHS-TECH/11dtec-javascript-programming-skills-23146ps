@@ -26,7 +26,7 @@ const MAX_USER_MONEY = 5
 function start() {
     getUserName();
     if (!isNaN(userName)|| userName == null || userName == "" || userName == " "){
-        userName = prompt("Invalid, name must not be empty or a number!")
+        return;
     } 
     getUserAge();
     if (isNaN(userAge)|| userAge == null || userAge == "" || userAge == " " || userAge < MIN_USER_AGE || userAge > MAX_USER_AGE){
