@@ -9,10 +9,12 @@
 
 let classArray = ["weeds", "mexican coke", "fenta", "sprite", "3g methamphetamine"];
 
+let prices = ["1.50","2.00","3.00","4.50","6.10"];
+
 let message = "These items are for sale:"
 
 for (i = 0; i < classArray.length; i++){
-    message = message + "\nfor $"+ (i + 1) + " is "+classArray[i];
+    message = message + "\nfor $"+ prices[i] + " is "+classArray[i];
 }
 
 function getUserName() {
@@ -33,7 +35,7 @@ function start() {
     } 
     getUserMoney();
     if (!isNaN(userMoney)|| userMoney != "weeds" || userMoney != "mexican coke" || userMoney != "fenta" || userMoney != "sprite" || userMoney != "3g methamphetamine" || userMoney == null || userMoney == "" || userMoney == " "){
-            userMoney = prompt("Invalid, can't you read the godamned prompt!? :3")
+            userMoney = prompt("Invalid, ")
     }
     alert("thanks for the purchase");
 }
